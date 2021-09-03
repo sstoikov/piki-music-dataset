@@ -1,7 +1,7 @@
 # Piki Music Dataset
 We present the **Piki Music dataset** with the goal of enabling researchers and practitioners from the RecSys community to mitigate the noisy feedback and self-selection biases inherent in the data collected by existing music platforms.
 
-The Piki Music dataset currently consists of 2723 anonymized users, 66,532 anonymized songs and 500K binary ratings and the data collection is still on-going.
+The Piki Music dataset currently consists of 2723 anonymized users, 66,532 anonymized songs and 500K binary ratings and the data collection is still on-going. The Piki Music app is available for download [here](https://piki.page.link/AcVj).
 
 In this repo, we release the dataset(`data/piki_dataset.csv`) and the code for conducting the experiments in our paper "Evaluating Music Recommendations with Binary Feedback for Multiple Stakeholders"[[arxiv link](www.arxiv.org)]
 
