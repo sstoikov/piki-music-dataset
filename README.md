@@ -5,6 +5,8 @@ The Piki Music dataset currently consists of 2723 anonymized users, 66,532 anony
 
 In this repo, we release the dataset(`data/piki_dataset.csv`) and the code for conducting the experiments in our paper "Evaluating Music Recommendations with Binary Feedback for Multiple Stakeholders"[[paper link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919046)]
 
+If you're interested in a very quick intro, [here](https://www.youtube.com/watch?v=2f74yQjhCkk) is a 7 min video intro to the paper.
+
 To get familiar with the dataset and reproduce the results in the paper, install the dependencies and start by running the python script:
 
 ```
