@@ -18,7 +18,7 @@ within the scope of our study.
 • spotify_popularity: this is the song’s artist’s popularity, a value between 0 and 100, with 100 being the most
 popular. It is published by Spotify for each artist, through their publicly-available API
 
-In this repo, we release the dataset(`data/piki_dataset.csv`), a data exploration Jupyter notebook ('Piki Music Dataset.ipynb') and the code for conducting the experiments in our paper ["Evaluating Music Recommendations with Binary Feedback for Multiple Stakeholders"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919046)
+In this repo, we release the dataset(`data/piki_dataset.csv`), a data exploration Jupyter notebook (`Piki Music Dataset.ipynb`) and the code for conducting the experiments in our paper ["Evaluating Music Recommendations with Binary Feedback for Multiple Stakeholders"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919046)
 
 If you're interested in a very quick intro, [here](https://www.youtube.com/watch?v=2f74yQjhCkk) is a 7 min video intro to the paper.
 
