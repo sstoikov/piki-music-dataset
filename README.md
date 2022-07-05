@@ -1,5 +1,7 @@
 # Piki Music Dataset
-We present the **Piki Music dataset** with the goal of enabling researchers and practitioners from the RecSys community to mitigate the noisy feedback and self-selection biases inherent in the data collected by existing music platforms.
+We present the **Piki Music dataset** with the goal of enabling researchers and practitioners from the RecSys community to mitigate the *noisy feedback* and *self-selection biases* inherent in the data collected by existing music platforms. 
+
+Noisy feedback biases often arise in implicit data sets collected by streaming apps. These apps collect user actions, such as plays, skips and additions to playlists, without recording the context of the user. For example, a song stream from a recommended playlist may be falsely interpreted as an indication that the song was enjoyed, when in fact it was played in the background. A song that is skipped may be falsely interpreted as an indication that the song was dislike, when in fact the user may not be in the mood for the song in their present context.
 
 The Piki Music dataset currently consists of 2723 anonymized users, 66,532 anonymized songs and 500K binary ratings and the data collection is still on-going. The Piki Music app is available for download [here](https://piki.page.link/AcVj).
 
