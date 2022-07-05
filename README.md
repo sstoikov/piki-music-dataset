@@ -1,5 +1,5 @@
 # Piki Music Dataset
-We present the **Piki Music dataset** with the goal of enabling researchers and practitioners from the RecSys community to mitigate the **noisy feedback** and **self-selection biases** inherent in the data collected by existing music platforms. 
+We present the **Piki Music dataset** with the goal of enabling researchers and practitioners from the RecSys community to mitigate the **noisy feedback** and **self-selection biases** inherent in the data collected by existing music platforms. These biases are likely to have significant impact on the fairness, transparency and quality of recommendation systems. We hope this dataset helps the community to focus on the impact of the data collection mechanisms, as much has already been written about recommendation algorithms and evaluation metrics.
 
 **Noisy feedback** biases arise in implicit data sets collected by streaming apps. Such apps collect user actions without recording the context of the user and without the knowledge that they are being surveyed. Consequently, a song stream from a recommended playlist may be falsely interpreted as an indication that the song was enjoyed, when in fact it was played in the background. A skipped song may be falsely interpreted as an indication that the song was dislike, when in fact the user may not be in the mood for the song in their present context. **Self-selection** biases arise in explicit data sets collected by apps that ask users to give ratings. Since rating is optional, the users most incentivized to rate are users who are very happy or very unhappy about their experience with the rated item.
 
@@ -18,7 +18,7 @@ within the scope of our study.
 • spotify_popularity: this is the song’s artist’s popularity, a value between 0 and 100, with 100 being the most
 popular. It is published by Spotify for each artist, through their publicly-available API
 
-In this repo, we release the dataset(`data/piki_dataset.csv`) and the code for conducting the experiments in our paper ["Evaluating Music Recommendations with Binary Feedback for Multiple Stakeholders"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919046)
+In this repo, we release the dataset(`data/piki_dataset.csv`), a data exploration Jupyter notebook ('Piki Music Dataset.ipynb') and the code for conducting the experiments in our paper ["Evaluating Music Recommendations with Binary Feedback for Multiple Stakeholders"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3919046)
 
 If you're interested in a very quick intro, [here](https://www.youtube.com/watch?v=2f74yQjhCkk) is a 7 min video intro to the paper.
 
