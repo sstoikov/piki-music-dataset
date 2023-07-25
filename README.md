@@ -18,11 +18,11 @@ The columns of the dataset are as following:
 
 • liked: this is the feedback indicator, 2 if the song is superliked, 1 if the song is liked, or 0 if the song is disliked. Superliked songs are saved to a playlist.
 
-• personalized: this is 1 if the song was recommended based on their previous choices or 0 if the song was selected
-randomly. Note that the songs recommended are 66% personalized and 34% random songs. The effect of algorithmic recommendations on the ratings is studied in ["Interface Design to Mitigate Inflation in Recommender Systems"](https://arxiv.org/abs/2307.12424).
+• personalized: this is 2 if the song is hyper-personalized (by an artist that the user has already superliked), 1 if the song was recommended based on their previous choices or 0 if the song was selected
+randomly. The effect of algorithmic recommendations on the ratings is studied in ["Interface Design to Mitigate Inflation in Recommender Systems"](https://arxiv.org/abs/2307.12424).
 
 • spotify_popularity: this is the song’s artist’s popularity, a value between 0 and 100, with 100 being the most
-popular. It is published by Spotify for each artist, through their publicly-available API
+popular. It is published by Spotify for each artist, through their publicly-available API.
 
 • treatment group: Before January 3rd 2021, users could rate a song as soon as the music video was launched, this is treatment -1. After January 3rd 2021, the dislike button is enabled after 3 seconds, the like button is enabled after 6 seconds and the superlike button is enabled after 12 seconds, this is treatment 0. Between August 19 and December 5, 2022, a Randomized Control Trial was performed on 3 treatment groups: for group 1, the like button was enabled after 3 seconds, group 3 after 6 seconds and group 3 after 9 seconds. Post December 5 2022, the dislike button is enabled after 6 seconds, the like button after 8 seconds and the superlike after 12 seconds. The effect of the changes on the interface in various treatment groups is studied in ["Interface Design to Mitigate Inflation in Recommender Systems"](https://arxiv.org/abs/2307.12424).
 
